@@ -51,15 +51,10 @@ expense-tracker/
 │
 ├── index.html
 ├── README.md
-│
-├── css/
-│   └── style.css
-│
-├── js/
-│   └── app.js
-│
-└── assets/
-    └── screenshots/
+├── style.css
+├── script.js
+├── expense.png
+
 ```
 
 ---
