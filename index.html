@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Expense Tracker</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Alfa+Slab+One&family=Bebas+Neue&family=Lobster+Two:ital,wght@0,400;0,700;1,400;1,700&family=Montenegrin+Gothic+One&family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Roboto+Mono:ital,wght@0,100..700;1,100..700&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+
+
+</head>
+<body>
+    
+      <h1>💰Expense Tracker</h1>
+      <p>Track your daily expenses easily</p>
+      <div class="container">
+        <form>
+            <label>💰 Monthly Budget</label>
+            <input type="number" id="budgetInput" placeholder="Enter Monthly Budget" required>
+    
+            <label>📝 Expense Name</label>
+            <input type="text" id="expenseName" placeholder="Enter Expense Name" required>
+
+            <label>💵 Amount</label>
+            <input type="number" id="amountInput" placeholder="Enter Amount" required>
+
+            <label>Category</label>
+            <select id="categorySelect" aria-label="Default select example" required>
+                  <option value="" selected disabled>Select Category</option>
+                  <option value="🍔 Food">🍔 Food</option>
+                  <option value="🏠 Rent">🏠 Rent</option>
+                  <option value="🚘 Transport">🚘 Transport</option>
+                  <option value="👕 Shopping">👕 Shopping</option>
+                  <option value="🎓 Education">🎓 Education</option>
+                  <option value="💊 Health">💊 Health</option>
+                  <option value="📱 Bills">📱 Bills</option>
+                  <option value="🎮 Games">🎮 Games</option>
+                  <option value="📦 Others">📦 Others</option>
+            </select>
+            <button type="submit" id="addBtn">Add Expense</button>
+            </form>
+            <div class="summaryContainer">
+                  <h2>📊Summary</h2>
+                  <p id="budget">💰 Budget : ₹0</p>
+                  <p id="spent">💸 spent : ₹0</p>
+                  <p id="remaining">💵 remaining : ₹0</p>
+           </div>
+           <label>🔍 Search Expense</label>
+           <input id="search" 
+                  type="text"
+                  placeholder="Search expense..."
+            >
+           <label>🗒️ Expense History</label>
+           <div id="expenseList">
+             <p id="History">No expense yet...</p>
+           </div>
+      </div>
+      <script src="script.js"></script>
+      
+</body>
+</html>
