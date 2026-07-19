@@ -5,11 +5,8 @@ A modern and responsive **Expense Tracker** built with **HTML, CSS, and JavaScri
 ---
 
 ## 🚀 Live Demo
-
-> Add your GitHub Pages link here after deployment.
-
 ```
-https://your-username.github.io/expense-tracker/
+https://guduru-lokesh-code.github.io/EXPENSE-TRACKER/
 ```
 
 ---
