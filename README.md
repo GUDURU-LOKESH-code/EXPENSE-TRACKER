@@ -169,7 +169,7 @@ This project is licensed under the MIT License.
 **Lokesh**
 
 * GitHub: https://github.com/GUDURU-LOKESH-code
-* LinkedIn: https://www.linkedin.com/in/your-profile
+* LinkedIn: https://www.linkedin.com/in/king-lokesh-6b888a298/
 
 ---
 
