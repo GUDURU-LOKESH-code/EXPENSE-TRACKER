@@ -5,15 +5,16 @@ A modern and responsive **Expense Tracker** built with **HTML, CSS, and JavaScri
 ---
 
 ## 🚀 Live Demo
-```
+
 https://guduru-lokesh-code.github.io/EXPENSE-TRACKER/
-```
+
 
 ---
 
 ## 📸 Screenshot
 
-![alt text](image.png)
+<img width="636" height="1705" alt="image" src="https://github.com/user-attachments/assets/c0d93a89-ea8d-474b-8be3-ef1065d9197c" />
+
 
 ---
 
